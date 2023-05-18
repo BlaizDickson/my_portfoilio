@@ -40,3 +40,42 @@ nav a {
 nav a:hover {
   text-decoration: underline;
 }
+
+#section1 {
+  display: flex;
+  align-items: center;
+  padding: 40px;
+}
+
+.social-icons {
+  display: flex;
+  flex-direction: column;
+}
+
+.vertical-line {
+  width: 2px;
+  height: 2cm;
+  background-color: black;
+}
+
+.social-icons a {
+  margin-bottom: 10px;
+}
+
+.center-content {
+  text-align: center;
+}
+
+.center-content img {
+  width: 200px;
+  margin-bottom: 10px;
+}
+
+footer {
+  background-color: rgb(255, 255, 255);
+  color: rgb(10, 10, 10);
+  padding: 20px;
+  text-align: center;
+  height: 20px;
+  border-top:2px solid rgb(182, 178, 178);
+}
