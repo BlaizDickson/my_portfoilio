@@ -12,7 +12,7 @@ header {
   height: 50px;
   width: auto;
   padding: 20px;
-  border-bottom:2px solid rgb(182, 178, 178);
+  border-bottom: 2px solid rgb(182, 178, 178);
 }
 
 header h1 {
@@ -21,7 +21,7 @@ header h1 {
   font-weight: bolder;
   line-height: 1.2px;
   padding-left: 88px;
-}  
+}
 
 nav ul {
   list-style: none;
@@ -40,6 +40,23 @@ nav a {
   text-decoration: none;
 }
 
+.other-icons a {
+  display: flex;
+  color: rgb(49, 0, 185);
+  flex-direction: column;
+  width: 40px;
+  height: 40px;
+  text-decoration: none;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 50%;
+  padding: 5px;
+}
+
+.social-icons a {
+  margin-bottom: 10px;
+}
+
 nav a:hover {
   text-decoration: underline;
 }
@@ -49,7 +66,6 @@ nav a:hover {
   display: flex;
   align-items: center;
   padding: 60px;
-  justify-content: space-between;
 }
 
 .social-icons {
@@ -63,11 +79,6 @@ nav a:hover {
   background-color: rgb(197, 183, 183);
   margin: 16px;
 }
-
-.social-icons a {
-  margin-bottom: 10px;
-}
-
 
 .about_section {
   margin: auto;
@@ -85,7 +96,7 @@ nav a:hover {
   background-color: #ccc;
   background-image: url('placeholder-image.jpg');
   background-size: cover;
-  background-position: center; 
+  background-position: center;
 }
 
 .section1-last {
@@ -94,22 +105,20 @@ nav a:hover {
 }
 
 .vertical-text {
-  font-family: 'Inter';
-  font-style: normal;
   font-weight: 400;
   font-size: 14px;
-  color: #0C07F2;
+  color: #0c07f2;
   writing-mode: sideways-rl;
 }
 
-
 .vertical-line2 {
-  width: 0px;
+  width: 0;
   height: 130px;
   left: 1187.75px;
   top: 318.5px;
   margin-right: 7px;
-  border: 0.7px solid #000000;
+  border: 0.7px solid #000;
+  margin-top: 5px;
 }
 
 .icon-wrapper {
@@ -135,12 +144,9 @@ nav a:hover {
   text-align: center;
 }
 
-.about_section {
-  text-align: center;
-}
-section p1 {
+section .h1 {
   line-height: 1cm;
-  color: #000000;
+  color: rgb(3, 3, 3);
   padding-left: 3.3rem;
   font-size: 4em;
   font-weight: bolder;
@@ -155,7 +161,7 @@ section p1 {
 .more {
   padding-left: 3.3rem;
   text-decoration: underline;
-  color: #0C07F2;
+  color: #0c07f2;
 }
 
 .with-placeholder {
@@ -163,8 +169,8 @@ section p1 {
   flex-direction: row;
 }
 
-.brief-desc{
-  padding: 0px;
+.brief-desc {
+  padding: 0;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -173,23 +179,10 @@ section p1 {
 }
 
 .brief-about {
-  padding-left: 0px;
-  margin: 0px;
+  padding-left: 0;
+  margin: 0;
   display: flex;
   align-items: center;
-}
-
-.other-icons a {
-  display: flex;
-  color: rgb(49, 0, 185);
-  flex-direction: column;
-  width: 40px;
-  height: 40px;
-  text-decoration: none;
-  text-align: center;
-  line-height: 40px;
-  border-radius: 50%;
-  padding: 5px;
 }
 
 .icons {
@@ -219,13 +212,12 @@ section p1 {
   width: 400px;
   height: 300px;
   border-radius: 3%;
-  border-left : 20px solid rgb(60, 37, 194);
-  border-right : 20px solid rgb(60, 37, 194);
-  border-top: 20px solid #3f1db9 ;
+  border-left: 20px solid rgb(60, 37, 194);
+  border-right: 20px solid rgb(60, 37, 194);
+  border-top: 20px solid #3f1db9;
   background-color: #ccc;
   margin: 10px;
 }
-
 
 footer {
   background-color: rgb(255, 255, 255);
@@ -233,5 +225,5 @@ footer {
   padding: 20px;
   text-align: center;
   height: 20px;
-  border-top:2px solid rgb(182, 178, 178);
+  border-top: 2px solid rgb(182, 178, 178);
 }
