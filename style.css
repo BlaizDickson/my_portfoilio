@@ -31,7 +31,6 @@ nav ul {
 }
 
 nav li {
-  position: relative;
   margin-left: 20px;
   padding: 25px;
 }
@@ -69,14 +68,6 @@ nav a:hover {
   margin-bottom: 10px;
 }
 
-.center-content {
-  text-align: center;
-}
-
-.center-content img {
-  width: 200px;
-  margin-bottom: 10px;
-}
 
 .about_section {
   margin: auto;
@@ -85,23 +76,16 @@ nav a:hover {
   align-items: center;
 }
 
-.image-placeholder {
+.image-placeholder1 {
   flex-basis: auto;
   flex-grow: 0;
   width: 200px;
   height: 200px;
   border-radius: 50%;
   background-color: #ccc;
-  /* Optional: Add a placeholder image */
   background-image: url('placeholder-image.jpg');
   background-size: cover;
-  background-position: center;  /* padding: 40px;
-  margin-left: 100px;
-  margin-bottom: 40px;
-  border-radius: 360px;
-  width: 180px;
-  height: 180px;
-  background-color: #ccc; */
+  background-position: center; 
 }
 
 .section1-last {
@@ -110,12 +94,10 @@ nav a:hover {
 }
 
 .vertical-text {
-  /* padding-right: 0px; */
   font-family: 'Inter';
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
-
   color: #0C07F2;
   writing-mode: sideways-rl;
 }
@@ -127,7 +109,6 @@ nav a:hover {
   left: 1187.75px;
   top: 318.5px;
   margin-right: 7px;
-  
   border: 0.7px solid #000000;
 }
 
@@ -152,15 +133,12 @@ nav a:hover {
 .description {
   margin-top: 5px;
   text-align: center;
-  /* Add additional styles for the description */
 }
 
 .about_section {
   text-align: center;
 }
 section p1 {
-  /* margin-left: 52px;
-  display: flex; */
   line-height: 1cm;
   color: #000000;
   padding-left: 3.3rem;
@@ -219,7 +197,34 @@ section p1 {
   flex-direction: column;
 }
 
-/* Add additional styles for the icons */
+.image-section {
+  text-align: center;
+}
+
+.section-header {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.image-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-items: center;
+  gap: 10px;
+  padding-left: 14rem;
+  padding-right: 15rem;
+}
+
+.image-placeholder {
+  width: 400px;
+  height: 300px;
+  border-radius: 3%;
+  border-left : 20px solid rgb(60, 37, 194);
+  border-right : 20px solid rgb(60, 37, 194);
+  border-top: 20px solid #3f1db9 ;
+  background-color: #ccc;
+  margin: 10px;
+}
 
 
 footer {
