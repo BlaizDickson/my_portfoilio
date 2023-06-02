@@ -174,7 +174,7 @@ section .h1 {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  line-height: 7px;
+  line-height: 10px;
   font-size: 20px;
 }
 
@@ -200,6 +200,7 @@ section .h1 {
 }
 
 .image-container {
+  flex-wrap: wrap;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   justify-items: center;
