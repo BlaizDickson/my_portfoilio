@@ -45,31 +45,109 @@ body {
     text-decoration: underline;
   }
 
-  .section1 {
-    display: flex;
+  .text {
+    padding: 2em;
   }
 
-  #section2 {
+  #section1 {
     display: flex;
+    flex-direction: column;
+    margin-left: 176px;
+    margin-top: 50px;
+    margin-right: 217px;
   }
 
-  #section3 {
+  .about_me {
     display: flex;
+    flex-direction: row;
+    margin-left: 176px;
   }
 
-  .image-placeholder {
-    width: 300px; /* Set the desired width */
-    height: 200px; /* Set the desired height */
-    background-image: url('path/to/placeholder-image.jpg');
+  #section1 h1 {
+    font-family: Poppins;
+    font-size: 60px;
+    font-weight: 800;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+    white-space: nowrap;
+    margin-left: 176px;
+    margin-top: 50px;
+    margin-right: 217px;
+  }
+
+  .text {
+    margin-top: -3%;
+    padding-top: 0%;
+    border-top: 0px;
+  }
+
+  .section2 {
+    display: flex;
+    flex-direction: row;
+    margin-left: 318px;
+    margin-top: 50px;
+    margin-right: 217px;
+  }
+
+  .section3 {
+    display: flex;
+    flex-direction: row;
+    margin-left: 176px;
+    margin-top: 50px;
+    margin-right: 217px;
+    margin-bottom: 134px;
+  }
+
+  .section3 text {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .image-placeholder1 {
+    min-width: 236px;
+    min-height: 290px;
+    background-image: url('Portfolio_Assets/Bakeung2.jpg');
+    background-size: cover;
+    background-position: center;
   }  
   
+  .image-placeholder2 {
+    min-width: 236px;
+    min-height: 290px;
+    background-image: url('Portfolio_Assets/Bakeung.jpg');
+    background-size: cover;
+    margin-left: 176px;
+  }  
+
+  .image-placeholder3 {
+    min-width: 236px;
+    min-height: 290px;
+    background-image: url('Portfolio_Assets/Bakeung5.jpg');
+    background-size: cover;
+    margin-left: 176px;
+  }  
+
   footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
     background-color: rgb(255, 255, 255);
     color: rgb(10, 10, 10);
     padding: 20px;
     text-align: center;
     height: 20px;
     border-top: 2px solid rgb(182, 178, 178);
+  }
+  
+  footer p {
+    margin-left: 176px;
+    color: rgb(136, 132, 132);
+  }
+  
+  footer div{
+    padding-left: 200px;
+    align-self: center;
   }
   
   @media screen and (max-width: 767px) {

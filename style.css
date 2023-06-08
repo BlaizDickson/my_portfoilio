@@ -214,12 +214,22 @@ section .h1 {
 }
 
 footer {
+  display: flex;
+  flex-direction: row;
   background-color: rgb(255, 255, 255);
   color: rgb(10, 10, 10);
-  padding: 20px;
-  text-align: center;
-  height: 20px;
+  min-height: 26px;
   border-top: 2px solid rgb(182, 178, 178);
+}
+
+footer p {
+  margin-left: 176px;
+  color: rgb(136, 132, 132);
+}
+
+footer div{
+  padding-left: 200px;
+  align-self: center;
 }
 
 #canvas-container {
