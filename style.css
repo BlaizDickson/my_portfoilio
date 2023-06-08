@@ -222,6 +222,21 @@ footer {
   border-top: 2px solid rgb(182, 178, 178);
 }
 
+#canvas-container {
+  width: 100%;
+  height: 50vh;
+  position: relative;
+}
+#canvas-container canvas {
+  width: 100%;
+  height: 100%;
+}
+
+canvas {
+  display: block;
+}
+
+
 @media screen and (max-width: 767px) {
   /* CSS rules for small screens */
   body {
@@ -292,6 +307,7 @@ footer {
 
   #canvas-container {
     width: 100%;
-    height: 100vh;
+    height: 300px;
+    background-color: #f2f2f2;
   }
 }
