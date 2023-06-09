@@ -197,20 +197,19 @@ section .h1 {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   justify-items: center;
-  gap: 10px;
-  padding-left: 14rem;
-  padding-right: 15rem;
+  margin-left: 197px;
 }
 
 .image-placeholder {
-  width: 400px;
-  height: 300px;
-  border-radius: 3%;
+  width: 433px;
+  height: 322px;
+  border-radius: 10px;
   border-left: 20px solid rgb(60, 37, 194);
   border-right: 20px solid rgb(60, 37, 194);
   border-top: 20px solid #3f1db9;
   background-color: #ccc;
   margin: 10px;
+  background-image: url();
 }
 
 footer {
