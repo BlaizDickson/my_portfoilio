@@ -1,127 +1,124 @@
 body {
-    font-family: Arial, sans-serif;
+  font-family: Arial, sans-serif;
+  margin: 0;
+}
+
+#heading {
+  padding-top: 67px;
+  padding-left: 197px;
+}
+
+footer p {
+  margin-left: 176px;
+  color: rgb(136, 132, 132);
+}
+
+.brief-desc2 p {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  font-size: 22px;
+  font-weight: 700;
+  margin-top: 0%;
+  padding-top: 0%;
+  margin-left: 1%;
+  padding-left: 0%;
+  padding-bottom: 1.2em;
+  line-height: 27px;
+}
+
+.social-icons a {
+  line-height: 10px;
+  padding-bottom: 1.5em;
+  color: black;
+  padding-top: 14px;
+  margin-bottom: 4.5px;
+}
+
+#heading p {
+  font-size: large;
+}
+
+#text {
+  font-weight: 800;
+  font-size: 60px;
+  line-height: 90px;
+  margin-left: 0%;
+  padding-left: 0%;
+}
+
+#section1 {
+  justify-content: space-between;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 167px;
+}
+
+#section1a {
+  display: flex;
+  flex-direction: row;
+  margin-left: -680px;
+}
+
+.brief-desc {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  font-size: 18px;
+  margin-top: 8px;
+}
+
+.brief-desc a {
+  padding-bottom: 2.2em;
+  margin-top: 8.5px;
+  line-height: 27px;
+}
+
+.social-icons {
+  display: flex;
+  flex-direction: column;
+}
+
+footer {
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(255, 255, 255);
+  color: rgb(10, 10, 10);
+  min-height: 26px;
+  border-top: 2px solid rgb(182, 178, 178);
+}
+
+footer div {
+  padding-left: 200px;
+  align-self: center;
+}
+
+@media screen and (max-width: 767px) {
+  /* CSS rules for small screens */
+  body {
     margin: 0;
+    overflow-x: hidden;
   }
 
-  #heading {
-    padding-top: 67px;
-    padding-left: 197px;
-  }
-  #heading p {
-    font-size: large;
-  }
-
-  #text {
-    font-weight: 800;
-    font-size: 60px;
-    line-height: 90px;
-    margin-left: 0%;
-    padding-left: 0%;
-  }
-  
-  .social-icons a {
-    padding-top: 14px;
-    margin-bottom: 4.5px;
-  }
-  
-  #section1 {
-    justify-content: space-between;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-left: 167px;
+  header h1 {
+    color: rgb(5, 5, 5);
+    font-size: 250%;
+    font-weight: bolder;
+    line-height: 1.2px;
+    padding-left: 5%;
   }
 
-  #section1a {
-    display: flex;
-    flex-direction: row;
-    margin-left: -680px;
+  section .h1 {
+    line-height: 1cm;
+    color: rgb(3, 3, 3);
+    padding-left: 3.3rem;
+    font-size: 2em;
+    font-weight: bolder;
   }
 
-  .brief-desc {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    font-size: 18px;
-    margin-top: 8px;
-  }
-
-  .brief-desc2 p {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    font-size: 22px;
-    font-weight: 700;
-    margin-top: 0%;
-    padding-top: 0%;
-    margin-left: 1%;
-    padding-left: 0%;
-    padding-bottom: 1.2em;
-    line-height: 27px;
-  }
-
-  .brief-desc a {
-    padding-bottom: 2.2em;
-    margin-top: 8.5px;
-    line-height: 27px;
-  }
-
-  .social-icons {
-    display: flex;
-    flex-direction: column;
-  }
-
-  .social-icons a {
-    line-height: 10px;
-    padding-bottom: 1.5em;
-    border-bottom: 1.5rem;
-    color: black;
-  }
-
-  footer {
-    display: flex;
-    flex-direction: row;
-    background-color: rgb(255, 255, 255);
-    color: rgb(10, 10, 10);
-    min-height: 26px;
-    border-top: 2px solid rgb(182, 178, 178);
-  }
-  
-  footer p {
-    margin-left: 176px;
-    color: rgb(136, 132, 132);
-  }
-  
-  footer div{
+  footer div {
     padding-left: 200px;
     align-self: center;
   }
-
-  @media screen and (max-width: 767px) {
-    /* CSS rules for small screens */
-    body {
-      margin: 0;
-      overflow-x: hidden;
-    }
-  
-    header h1 {
-      color: rgb(5, 5, 5);
-      font-size: 250%;
-      font-weight: bolder;
-      line-height: 1.2px;
-      padding-left: 5%;
-    }
-    
-    section .h1 {
-      line-height: 1cm;
-      color: rgb(3, 3, 3);
-      padding-left: 3.3rem;
-      font-size: 2em;
-      font-weight: bolder;
-    }
-  
-    footer div{
-      padding-left: 200px;
-      align-self: center;
-    }
-  }
+}

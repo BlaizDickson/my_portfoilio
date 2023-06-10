@@ -207,6 +207,11 @@ section .h1 {
   margin-right: 197px;
 }
 
+footer div {
+  padding-left: 200px;
+  align-self: center;
+}
+
 .image-container div {
   width: 433px;
   height: 322px;
@@ -225,10 +230,10 @@ section .h1 {
 }
 
 #description {
-  margin-top: 0px;
+  margin-top: 0;
   width: 423px;
   height: 310px;
-  margin-left: 0px;
+  margin-left: 0;
   visibility: hidden;
   position: relative;
   top: 50%;
@@ -286,10 +291,6 @@ section .h1 {
   border-right: 20px solid #333335;
   border-top: 20px solid #333335;
   background-image: url('Portfolio_Assets/future project3.png');
-}
-
-#canvas-container {
-  display: none;
 }
 
 .tools h2 {
@@ -391,26 +392,11 @@ footer p {
   color: rgb(136, 132, 132);
 }
 
-footer div{
-  padding-left: 200px;
-  align-self: center;
-}
-
 #canvas-container {
   width: 100%;
   height: 50vh;
   position: relative;
 }
-
-#canvas-container canvas {
-  width: 100%;
-  height: 100%;
-}
-
-canvas {
-  display: block;
-}
-
 
 @media screen and (max-width: 767px) {
   /* CSS rules for small screens */
@@ -426,6 +412,7 @@ canvas {
     height: 50px;
     border-bottom: 2px solid rgb(182, 178, 178);
   }
+
   header h1 {
     color: rgb(5, 5, 5);
     font-size: 250%;
@@ -433,7 +420,7 @@ canvas {
     line-height: 1.2px;
     padding-left: 5%;
   }
-  
+
   nav ul {
     list-style: none;
     display: flex;
@@ -441,7 +428,7 @@ canvas {
     margin: 0;
     padding-right: 437px;
   }
-  
+
   nav li {
     margin-left: 10%;
     padding: 5%;
@@ -456,7 +443,7 @@ canvas {
     line-height: 15px;
     font-size: 15px;
   }
-  
+
   section .h1 {
     line-height: 1cm;
     color: rgb(3, 3, 3);
@@ -483,7 +470,7 @@ canvas {
     margin-left: 3%;
   }
 
-  .image-container{
+  .image-container {
     display: flex;
     flex-direction: column;
     gap: 10px;

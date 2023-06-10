@@ -1,210 +1,206 @@
 body {
-    font-family: Arial, sans-serif;
+  font-family: Arial, sans-serif;
+  margin: 0;
+}
+
+header {
+  background-color: rgb(255, 255, 255);
+  color: rgb(10, 10, 10);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+  width: auto;
+  padding: 20px;
+  border-bottom: 2px solid rgb(182, 178, 178);
+}
+
+header h1 {
+  color: rgb(5, 5, 5);
+  font-size: 50px;
+  font-weight: bolder;
+  line-height: 1.2px;
+  padding-left: 88px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  margin-left: 15%;
+  padding-right: 437px;
+}
+
+nav li {
+  margin-left: 20px;
+  padding: 25px;
+  white-space: nowrap;
+}
+
+nav a {
+  color: rgb(5, 5, 5);
+  text-decoration: none;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+#section1 {
+  display: flex;
+  flex-direction: column;
+  margin-left: 128px;
+  margin-top: 50px;
+  margin-right: 217px;
+}
+
+.about_me {
+  display: flex;
+  flex-direction: row;
+  margin-left: 105px;
+}
+
+#section1 h1 {
+  font-size: 60px;
+  font-weight: 800;
+  line-height: 30px;
+  letter-spacing: 0;
+  text-align: left;
+  white-space: nowrap;
+  margin-left: 105px;
+  margin-top: 50px;
+  margin-right: 217px;
+}
+
+.text {
+  margin-top: -2.8%;
+  padding-top: 0%;
+  border-top: 0;
+  padding-left: 2em;
+}
+
+.section2 {
+  display: flex;
+  flex-direction: row;
+  margin-left: 197px;
+  margin-top: 50px;
+  margin-right: 217px;
+}
+
+.section3 {
+  display: flex;
+  flex-direction: row;
+  margin-left: 130px;
+  margin-top: 50px;
+  margin-right: 217px;
+  margin-bottom: 134px;
+}
+
+.section3 text {
+  display: flex;
+  flex-direction: row;
+}
+
+.image-placeholder1 {
+  min-width: 236px;
+  min-height: 290px;
+  background-image: url('Portfolio_Assets/Bakeung2.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.image-placeholder2 {
+  min-width: 236px;
+  min-height: 290px;
+  background-image: url('Portfolio_Assets/Bakeung.jpg');
+  background-size: cover;
+  margin-left: 10px;
+}
+
+.image-placeholder3 {
+  min-width: 236px;
+  min-height: 290px;
+  background-image: url('Portfolio_Assets/Bakeung5.jpg');
+  background-size: cover;
+  margin-left: 100px;
+}
+
+footer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: rgb(255, 255, 255);
+  color: rgb(10, 10, 10);
+  padding: 20px;
+  text-align: center;
+  height: 20px;
+  border-top: 2px solid rgb(182, 178, 178);
+}
+
+footer p {
+  margin-left: 200px;
+  color: rgb(136, 132, 132);
+}
+
+footer div {
+  padding-left: 200px;
+  align-self: center;
+}
+
+@media screen and (max-width: 767px) {
+  /* CSS rules for small screens */
+  body {
     margin: 0;
+    overflow-x: hidden;
   }
-  
+
   header {
     background-color: rgb(255, 255, 255);
-    color: rgb(10, 10, 10);
     display: flex;
-    justify-content: space-between;
     align-items: center;
     height: 50px;
-    width: auto;
-    padding: 20px;
     border-bottom: 2px solid rgb(182, 178, 178);
   }
-  
+
   header h1 {
     color: rgb(5, 5, 5);
-    font-size: 50px;
+    font-size: 250%;
     font-weight: bolder;
     line-height: 1.2px;
-    padding-left: 88px;
+    padding-left: 5%;
   }
-  
+
   nav ul {
     list-style: none;
     display: flex;
-    margin-left: 15%;
+    width: fit-content;
+    margin: 0;
     padding-right: 437px;
   }
-  
+
   nav li {
-    margin-left: 20px;
-    padding: 25px;
+    margin-left: 10%;
+    padding: 5%;
     white-space: nowrap;
   }
-  
-  nav a {
-    color: rgb(5, 5, 5);
-    text-decoration: none;
-  }
-  
-  nav a:hover {
-    text-decoration: underline;
-  }
 
-  .text {
-    padding: 2em;
-  }
-
-  #section1 {
+  .brief-desc {
+    padding: 0;
     display: flex;
     flex-direction: column;
-    margin-left: 128px;
-    margin-top: 50px;
-    margin-right: 217px;
+    align-items: flex-start;
+    line-height: 15px;
+    font-size: 15px;
   }
 
-  .about_me {
-    display: flex;
-    flex-direction: row;
-    margin-left: 105px;
+  section .h1 {
+    line-height: 1cm;
+    color: rgb(3, 3, 3);
+    padding-left: 3.3rem;
+    font-size: 2em;
+    font-weight: bolder;
   }
 
-  #section1 h1 {
-    font-family: Poppins;
-    font-size: 60px;
-    font-weight: 800;
-    line-height: 30px;
-    letter-spacing: 0em;
-    text-align: left;
-    white-space: nowrap;
-    margin-left: 105px;
-    margin-top: 50px;
-    margin-right: 217px;
+  .section1-last {
+    display: none;
   }
-
-  .text {
-    margin-top: -3%;
-    padding-top: 0%;
-    border-top: 0px;
-  }
-
-  .section2 {
-    display: flex;
-    flex-direction: row;
-    margin-left: 197px;
-    margin-top: 50px;
-    margin-right: 217px;
-  }
-
-  .section3 {
-    display: flex;
-    flex-direction: row;
-    margin-left: 130px;
-    margin-top: 50px;
-    margin-right: 217px;
-    margin-bottom: 134px;
-  }
-
-  .section3 text {
-    display: flex;
-    flex-direction: row;
-  }
-
-  .image-placeholder1 {
-    min-width: 236px;
-    min-height: 290px;
-    background-image: url('Portfolio_Assets/Bakeung2.jpg');
-    background-size: cover;
-    background-position: center;
-  }  
-  
-  .image-placeholder2 {
-    min-width: 236px;
-    min-height: 290px;
-    background-image: url('Portfolio_Assets/Bakeung.jpg');
-    background-size: cover;
-    margin-left: 10px;
-  }  
-
-  .image-placeholder3 {
-    min-width: 236px;
-    min-height: 290px;
-    background-image: url('Portfolio_Assets/Bakeung5.jpg');
-    background-size: cover;
-    margin-left: 100px;
-  }  
-
-  footer {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    background-color: rgb(255, 255, 255);
-    color: rgb(10, 10, 10);
-    padding: 20px;
-    text-align: center;
-    height: 20px;
-    border-top: 2px solid rgb(182, 178, 178);
-  }
-  
-  footer p {
-    margin-left: 200px;
-    color: rgb(136, 132, 132);
-  }
-  
-  footer div{
-    padding-left: 200px;
-    align-self: center;
-  }
-  
-  @media screen and (max-width: 767px) {
-    /* CSS rules for small screens */
-    body {
-      margin: 0;
-      overflow-x: hidden;
-    }
-  
-    header {
-      background-color: rgb(255, 255, 255);
-      display: flex;
-      align-items: center;
-      height: 50px;
-      border-bottom: 2px solid rgb(182, 178, 178);
-    }
-    header h1 {
-      color: rgb(5, 5, 5);
-      font-size: 250%;
-      font-weight: bolder;
-      line-height: 1.2px;
-      padding-left: 5%;
-    }
-    
-    nav ul {
-      list-style: none;
-      display: flex;
-      width: fit-content;
-      margin: 0;
-      padding-right: 437px;
-    }
-    
-    nav li {
-      margin-left: 10%;
-      padding: 5%;
-      white-space: nowrap;
-    }
-  
-    .brief-desc {
-      padding: 0;
-      display: flex;
-      flex-direction: column;
-      align-items: flex-start;
-      line-height: 15px;
-      font-size: 15px;
-    }
-    
-    section .h1 {
-      line-height: 1cm;
-      color: rgb(3, 3, 3);
-      padding-left: 3.3rem;
-      font-size: 2em;
-      font-weight: bolder;
-    }
-  
-    .section1-last {
-      display: none;
-    }
-  
-  }
+}
