@@ -401,6 +401,7 @@ footer div{
   height: 50vh;
   position: relative;
 }
+
 #canvas-container canvas {
   width: 100%;
   height: 100%;
@@ -472,11 +473,22 @@ canvas {
     display: none;
   }
 
+  .section-header {
+    margin-top: 60px;
+    border-bottom: 2px solid rgb(182, 178, 178);
+    width: auto;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    margin-left: 3%;
+  }
+
   .image-container{
     display: flex;
     flex-direction: column;
     gap: 10px;
-    padding-left: 18%;
+    padding-left: 15%;
+    margin-left: 3%;
   }
 
   #canvas-container {

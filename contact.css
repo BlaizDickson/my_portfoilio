@@ -104,42 +104,12 @@ body {
       overflow-x: hidden;
     }
   
-    header {
-      background-color: rgb(255, 255, 255);
-      display: flex;
-      align-items: center;
-      height: 50px;
-      border-bottom: 2px solid rgb(182, 178, 178);
-    }
     header h1 {
       color: rgb(5, 5, 5);
       font-size: 250%;
       font-weight: bolder;
       line-height: 1.2px;
       padding-left: 5%;
-    }
-    
-    nav ul {
-      list-style: none;
-      display: flex;
-      width: fit-content;
-      margin: 0;
-      padding-right: 437px;
-    }
-    
-    nav li {
-      margin-left: 10%;
-      padding: 5%;
-      white-space: nowrap;
-    }
-  
-    .brief-desc {
-      padding: 0;
-      display: flex;
-      flex-direction: column;
-      align-items: flex-start;
-      line-height: 15px;
-      font-size: 15px;
     }
     
     section .h1 {
@@ -150,24 +120,8 @@ body {
       font-weight: bolder;
     }
   
-    .section1-last {
-      display: none;
-    }
-  
-    #section1a {
-      display: none;
-    }
-  
-    .image-container{
-      display: flex;
-      flex-direction: column;
-      gap: 10px;
-      padding-left: 18%;
-    }
-  
-    #canvas-container {
-      width: 100%;
-      height: 300px;
-      background-color: #f2f2f2;
+    footer div{
+      padding-left: 200px;
+      align-self: center;
     }
   }
