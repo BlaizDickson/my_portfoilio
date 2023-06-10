@@ -56,6 +56,7 @@ nav a {
 
 .social-icons a {
   margin-bottom: 10px;
+  color: #0906b3;
 }
 
 nav a:hover {
@@ -188,8 +189,13 @@ section .h1 {
 }
 
 .section-header {
+  margin-top: 60px;
+  border-bottom: 2px solid rgb(182, 178, 178);
+  width: 960px;
   font-size: 24px;
-  margin-bottom: 20px;
+  font-weight: bold;
+  margin-bottom: 15px;
+  margin-left: 208px;
 }
 
 .image-container {
@@ -198,18 +204,177 @@ section .h1 {
   grid-template-columns: repeat(2, 1fr);
   justify-items: center;
   margin-left: 197px;
+  margin-right: 197px;
 }
 
-.image-placeholder {
+.image-container div {
   width: 433px;
   height: 322px;
   border-radius: 10px;
-  border-left: 20px solid rgb(60, 37, 194);
-  border-right: 20px solid rgb(60, 37, 194);
-  border-top: 20px solid #3f1db9;
-  background-color: #ccc;
+  background-color: rgba(202, 202, 226, 0.644);
   margin: 10px;
-  background-image: url();
+}
+
+.image-placeholder11 {
+  background-size: cover;
+  background-position: center;
+  border-left: 20px solid rgb(62, 59, 77);
+  border-right: 20px solid rgb(62, 59, 77);
+  border-top: 20px solid rgb(62, 59, 77);
+  background-image: url('Portfolio_Assets/capstone project screenshot.png');
+}
+
+#description {
+  margin-top: 0px;
+  width: 423px;
+  height: 310px;
+  margin-left: 0px;
+  visibility: hidden;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: rgb(10, 10, 10);
+  padding: 5px;
+  border-radius: 4px;
+}
+
+.image-placeholder11:hover #description {
+  visibility: visible;
+}
+
+.image-placeholder2 {
+  background-size: cover;
+  background-position: center;
+  border-left: 20px solid rgb(112, 109, 128);
+  border-right: 20px solid rgb(112, 109, 128);
+  border-top: 20px solid rgb(112, 109, 128);
+  background-image: url('Portfolio_Assets/future project3.png');
+}
+
+.image-placeholder3 {
+  background-size: cover;
+  background-position: center;
+  border-left: 20px solid rgb(42, 42, 44);
+  border-right: 20px solid rgb(42, 42, 44);
+  border-top: 20px solid rgb(42, 42, 44);
+  background-image: url('Portfolio_Assets/future project.png');
+}
+
+.image-placeholder4 {
+  background-size: cover;
+  background-position: center;
+  border-left: 20px solid rgb(119, 55, 204);
+  border-right: 20px solid rgb(119, 55, 204);
+  border-top: 20px solid rgb(119, 55, 204);
+  background-image: url('Portfolio_Assets/future project2.png');
+}
+
+.image-placeholder5 {
+  background-size: cover;
+  background-position: center;
+  border-left: 20px solid rgb(183, 178, 214);
+  border-right: 20px solid rgb(183, 178, 214);
+  border-top: 20px solid rgb(183, 178, 214);
+  background-image: url('Portfolio_Assets/RPS Game.png');
+}
+
+.image-placeholder6 {
+  background-size: cover;
+  background-position: center;
+  border-left: 20px solid #333335;
+  border-right: 20px solid #333335;
+  border-top: 20px solid #333335;
+  background-image: url('Portfolio_Assets/future project3.png');
+}
+
+#canvas-container {
+  display: none;
+}
+
+.tools h2 {
+  margin-left: 205px;
+  margin-top: 60px;
+  border-bottom: 2px solid rgb(182, 178, 178);
+  width: 970px;
+}
+
+.tools-icons {
+  display: flex;
+  flex-direction: row;
+  margin-left: 197px;
+  margin-bottom: 100px;
+}
+
+.image1 {
+  background-size: cover;
+  background-position: center;
+  width: 51.9px;
+  height: 50px;
+  background-image: url('Portfolio_Assets/html.png');
+}
+
+.image2 {
+  background-size: cover;
+  margin-left: 80px;
+  background-position: center;
+  width: 51.9px;
+  height: 50px;
+  background-image: url('Portfolio_Assets/javascript.png');
+}
+
+.image3 {
+  background-size: cover;
+  margin-left: 80px;
+  background-position: center;
+  width: 51.9px;
+  height: 50px;
+  background-image: url('Portfolio_Assets/laravel.png');
+}
+
+.image4 {
+  margin-left: 80px;
+  background-size: cover;
+  background-position: center;
+  width: 51.9px;
+  height: 50px;
+  background-image: url('Portfolio_Assets/python.png');
+}
+
+.image5 {
+  margin-left: 80px;
+  background-size: cover;
+  background-position: center;
+  width: 51.9px;
+  height: 50px;
+  background-image: url('Portfolio_Assets/css.png');
+}
+
+.image6 {
+  margin-left: 80px;
+  background-size: cover;
+  background-position: center;
+  width: 51.9px;
+  height: 50px;
+  background-image: url('Portfolio_Assets/laravel.png');
+}
+
+.image7 {
+  margin-left: 80px;
+  background-size: cover;
+  background-position: center;
+  width: 51.9px;
+  height: 50px;
+  background-image: url('Portfolio_Assets/html.png');
+}
+
+.image8 {
+  margin-left: 80px;
+  background-size: cover;
+  background-position: center;
+  width: 51.9px;
+  height: 50px;
+  background-image: url('Portfolio_Assets/css.png');
 }
 
 footer {
@@ -222,7 +387,7 @@ footer {
 }
 
 footer p {
-  margin-left: 176px;
+  margin-left: 200px;
   color: rgb(136, 132, 132);
 }
 
