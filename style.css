@@ -104,13 +104,14 @@ nav a:hover {
 .section1-last {
   display: flex;
   flex-direction: column;
+  align-items: center;
 }
 
 .vertical-text {
   font-weight: 400;
   font-size: 14px;
   color: #0c07f2;
-  writing-mode: sideways-rl;
+  writing-mode: vertical-lr;
 }
 
 .vertical-line2 {
@@ -118,7 +119,7 @@ nav a:hover {
   height: 130px;
   left: 1187.75px;
   top: 318.5px;
-  margin-right: 7px;
+  margin-right: 2px;
   border: 0.7px solid #000;
   margin-top: 5px;
 }
